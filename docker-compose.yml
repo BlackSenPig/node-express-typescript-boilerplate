@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  node-app-type:
+    build: .
+    image: node-app-dev-type
+    restart: always  
+    ports:
+      - '5000:5000'
+    networks:
+      - node-network
+
+networks:
+  node-network:
+    driver: bridge
