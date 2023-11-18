@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "boilerplate to quick-start Node.js Express backend development in TypeScript.",
     "engines": {
-        "node": ">= 18.17 <20"
+        "node": ">= 20.9 <21.2"
     },
     "devDependencies": {
         "@types/cors": "^2.8.13",
